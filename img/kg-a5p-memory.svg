@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570">
+<rect width="100%" height="100%" fill="#0b1220"/>
+<text x="60" y="48" fill="#f8fafc" font-size="28" font-family="sans-serif" font-weight="700">内存带宽：单线程与 12 线程</text>
+<text x="60" y="76" fill="#94a3b8" font-size="15" font-family="sans-serif">sysbench memory，MiB/s；多线程写入扩展明显弱于读取</text>
+<line x1="105" y1="475.0" x2="1055" y2="475.0" stroke="#334155"/>
+<text x="93" y="480.0" text-anchor="end" fill="#94a3b8" font-size="13" font-family="sans-serif">0</text>
+<line x1="105" y1="404.0" x2="1055" y2="404.0" stroke="#334155"/>
+<text x="93" y="409.0" text-anchor="end" fill="#94a3b8" font-size="13" font-family="sans-serif">65,635</text>
+<line x1="105" y1="333.0" x2="1055" y2="333.0" stroke="#334155"/>
+<text x="93" y="338.0" text-anchor="end" fill="#94a3b8" font-size="13" font-family="sans-serif">131,269</text>
+<line x1="105" y1="262.0" x2="1055" y2="262.0" stroke="#334155"/>
+<text x="93" y="267.0" text-anchor="end" fill="#94a3b8" font-size="13" font-family="sans-serif">196,904</text>
+<line x1="105" y1="191.0" x2="1055" y2="191.0" stroke="#334155"/>
+<text x="93" y="196.0" text-anchor="end" fill="#94a3b8" font-size="13" font-family="sans-serif">262,538</text>
+<line x1="105" y1="120.0" x2="1055" y2="120.0" stroke="#334155"/>
+<text x="93" y="125.0" text-anchor="end" fill="#94a3b8" font-size="13" font-family="sans-serif">328,173</text>
+<text x="342.5" y="515" text-anchor="middle" fill="#f8fafc" font-size="14" font-family="sans-serif">1 线程</text>
+<rect x="280.5" y="448.7" width="54.0" height="26.3" rx="3" fill="#22d3ee"/>
+<text x="307.5" y="441.7" text-anchor="middle" fill="#f8fafc" font-size="12" font-family="sans-serif">24,336</text>
+<rect x="342.5" y="452.4" width="54.0" height="22.6" rx="3" fill="#a78bfa"/>
+<text x="369.5" y="445.4" text-anchor="middle" fill="#f8fafc" font-size="12" font-family="sans-serif">20,872</text>
+<text x="817.5" y="515" text-anchor="middle" fill="#f8fafc" font-size="14" font-family="sans-serif">12 线程</text>
+<rect x="755.5" y="166.3" width="54.0" height="308.7" rx="3" fill="#22d3ee"/>
+<text x="782.5" y="159.3" text-anchor="middle" fill="#f8fafc" font-size="12" font-family="sans-serif">285,368</text>
+<rect x="817.5" y="445.8" width="54.0" height="29.2" rx="3" fill="#a78bfa"/>
+<text x="844.5" y="438.8" text-anchor="middle" fill="#f8fafc" font-size="12" font-family="sans-serif">26,955</text>
+<rect x="105" y="542" width="15" height="15" fill="#22d3ee"/>
+<text x="128" y="555" fill="#94a3b8" font-size="13" font-family="sans-serif">读取</text>
+<rect x="250" y="542" width="15" height="15" fill="#a78bfa"/>
+<text x="273" y="555" fill="#94a3b8" font-size="13" font-family="sans-serif">写入</text>
+<text transform="translate(28 297.5) rotate(-90)" text-anchor="middle" fill="#94a3b8" font-size="14" font-family="sans-serif">MiB/s</text>
+</svg>
